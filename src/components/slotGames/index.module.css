@@ -1,0 +1,143 @@
+.featured-card {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: right;
+    transition: all 0.1s ease-out;
+    position: relative;
+}
+
+.featured-card:hover {
+    transform: scale(1.05);
+    z-index: 5;
+}
+
+.featured-card:hover .labels {
+    opacity: 0.8;
+}
+
+.featured-card img {
+    width: 100%;
+}
+
+.labels {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 5px;
+    margin-right: 8%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.row-cards-wrapper {
+    display: flex;
+    flex: 0 0 35%;
+    flex-direction: row;
+    padding: 10px 0;
+}
+
+.column-cards-wrapper {
+    display: flex;
+    flex: 1;
+    max-width: 25%;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.column-cards-wrapper .labels {
+    margin: 0;
+    top: 5px;
+    right: 5px;
+}
+
+.feature {
+    background-color: #241831;
+    border: 1px solid #d52788;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: bolder;
+    margin-bottom: 2px;
+    padding: 2px;
+    display: flex;
+}
+
+.green-text {
+    color: #93ba32;
+}
+
+.gold-text {
+    color: goldenrod;
+    background: linear-gradient(goldenrod 50%, gold 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.filters-wrapper {
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+
+.filters {
+    display: flex;
+    background-color: #17141f;
+    padding: 10px 10px 40px 10px;
+    border-top: 3px solid #291e3c;
+}
+
+.filters > div {
+    flex-grow: 1;
+    max-width: 280px;
+    margin-right: 10px;
+}
+
+.filter-title {
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #302e38;
+}
+
+.filter-btn {
+    border: 1px solid#ff2b9f;
+    font-size: small;
+    padding: 5px 25px;
+    display: flex;
+    user-select: none;
+}
+
+.filter-btn:hover {
+    background-color: #ff2ba0e8;
+}
+
+.filter-btn-icon {
+    margin-left: 5px;
+    padding-top: 2px;
+    transition: all 0.3s ease-out;
+}
+
+.filter-checkbox {
+    display: flex;
+    font-size: small;
+}
+
+.filter-checkbox input {
+    margin-right: 5px;
+}
+
+.featured-card-wrapper {
+    display: flex;
+    width: 100%;
+    margin: 30px 0;
+    gap: 10px;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+}

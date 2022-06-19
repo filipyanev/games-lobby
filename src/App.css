@@ -1,0 +1,12 @@
+.App {
+  background-image: url('./assets/background.svg');
+  background-color: #1f1530;
+  min-height: 100vh;
+  min-width: 1200px;
+  user-select: none;
+}
+
+
+h1, h2, h3, h4 {
+  margin: 5px 0;
+}

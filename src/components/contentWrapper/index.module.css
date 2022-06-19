@@ -1,0 +1,17 @@
+.content-wrapper {
+    max-width: 90%;
+    color: #fff;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 1200px) {
+    .content-wrapper {
+        max-width: 90%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .content-wrapper {
+        max-width: 70%;
+    }
+}
